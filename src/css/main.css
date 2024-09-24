@@ -23,6 +23,10 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+button:active {
+  background-color: rgba(177, 37, 37, 0.9);
+}
+
 .header {
   grid-row: span 2;
   grid-column: span 4;
