@@ -4,7 +4,9 @@
    ----------------------------------------------
     Installer GSAP
    ---------------------------------------------- */
-
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 /* -----------------------
     Exercice 1
    -----------------------
